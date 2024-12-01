@@ -16,6 +16,8 @@ python manage.py runserver
 
 ## Db Management
 
+Actual user: admin - admin
+
 Create migration
 
 ```bash
