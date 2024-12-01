@@ -1,15 +1,29 @@
 # Learn DJANGO
 
-## Start
+```bash
+python3 -m venv venv
+```
 
-python3 manage.py runserver
+```bash
+source venv/bin/activate
+```
 
-## Migration
+## Start server
 
-python3 manage.py makemigrations
+```bash
+python manage.py runserver
+```
 
-python3 manage.py migrate
+## Db Management
 
-### Tip
+Create migration
 
-https://docs.djangoproject.com/en/5.0/intro/tutorial04/
+```bash
+python manage.py makemigrations
+```
+
+Migrate
+
+```bash
+python manage.py migrate
+```
